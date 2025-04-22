@@ -8,9 +8,9 @@
 
 Si deseas ponerte en contacto conmigo, aquí te dejo mis redes y formas de comunicación:
 
-- 📱 WhatsApp: [tucorreo@ejemplo.com](https://wa.me/573227778199)   
-- 🐱 GitHub: [github.com/tuusuario](https://github.com/nicolashiguera17)  
-- 🌐 instagram: [tuportafolio.com](https://instagram.com/nicxh17)
+- 📱 WhatsApp: [mi numero ](https://wa.me/573227778199)   
+- 🐱 GitHub: [git.usuario](https://github.com/nicolashiguera17)  
+- 🌐 instagram: [instagram.usuario](https://instagram.com/nicxh17)
 
 ---
 
