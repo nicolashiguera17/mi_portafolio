@@ -64,7 +64,7 @@ nav a:hover {
 
 /* Inicio Section */
 #inicio {
-    background-image: url("/assets/fondo.png");
+    background-image: url("assets/img/fondo.png");
     background-repeat: no-repeat;   /* evita que se repita */
     background-size: cover;         /* hace que cubra todo el contenedor */
     background-position: center;    /* centra la imagen */
@@ -419,7 +419,7 @@ nav a:hover {
   /* Imagen de fondo con animación */
   background-image: 
     linear-gradient(rgba(18, 18, 18, 0.85), rgba(18, 18, 18, 0.85)), /* Overlay oscuro para mantener legibilidad */
-    url('/assets/fondo.png'); /* Imagen de circuitos/tecnología */
+    url('assets/img/fondo.png'); /* Imagen de circuitos/tecnología */
   background-size: 120% 120%; /* Más grande para permitir movimiento */
   background-position: center center;
   background-attachment: fixed; /* Efecto parallax */
