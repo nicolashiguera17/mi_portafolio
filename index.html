@@ -1,75 +1,246 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nicolás Díaz Higuera | Desarrollador Web</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#proyectos">Proyectos</a>
-    <a href="#habilidades">Habilidades</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
+    <header id="main-header">
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
 
-  <section class="intro" id="inicio">
-    <div class="intro-text">
-      <h1>Nicolás Díaz Higuera</h1>
-      <p>Desarrollador Web</p>
-      <a class="btn" href="#contacto">¡Contáctame!</a>
-    </div>
-    <div class="intro-img">
-      <img src="./storage/WhatsApp Image 2025-04-21 at 3.44.43 PM.jpeg" alt="Foto de perfil">
-    </div>
-  </section>
+    <!-- Sección Inicio -->
+    <section id="inicio" class="section">
+        <div class="container">
+            <div class="left-panel">
+                <img src="" alt="img">
+            </div>
+            <div class="right-panel">
+                <div class="glass3d">
+                    <h2>Bienvenido a mi portafolio</h2>
+                    <p>
+                        Aquí encontrarás una colección de mis proyectos, habilidades y experiencias
+                        que he desarrollado a lo largo de mi aprendizaje.
+                    </p>
+                    <p>
+                        Conoce mi portafolio y descubre cómo pongo pasión en cada proyecto a través del código.
+                    </p>
+                    <button id="loginButton" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">Contactarme</button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div style="font-size: 1.5rem;">⬇</div>
+            <div>Desliza </div>
+        </div>
+    </section>
 
-  <section class="section" id="proyectos">
-    <h2>Proyectos</h2>
-    <div class="projects-grid">
-      <div class="project">
-        <h3>Proyecto 1</h3>
-        <a href="https://nicolashiguera17.github.io/app_de_ecommerce_de_ropa/" target="_blank">Ver proyecto</a>
-      </div>
-      <div class="project">
-        <h3>Proyecto 2</h3>
-        <a href="https://nicolashiguera17.github.io/Ice-Cream-Landing-Page-UI/" target="_blank">Ver proyecto</a>
-      </div>
-      <div class="project">
-        <h3>Proyecto 3</h3>
-        <a href="https://nicolashiguera17.github.io/ahorcado--/" target="_blank">Ver proyecto</a>
-      </div>
-    </div>
-  </section>
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="section">
+        <div>
+          <h2 class="section-title">Mis Proyectos</h2>
+          <div class="projects-grid">
+            
+            <div class="project-card">
+              <div class="project-img">
+                <img src="/assets/fondo.png" alt="Aplicación Web">
+              </div>
+              <h3>🌐 Aplicación Web</h3>
+              <p>Una aplicación web moderna desarrollada con las últimas tecnologías. Incluye autenticación, base de datos y diseño responsivo.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+            </div>
+      
+            <div class="project-card">
+              <div class="project-img">
+                <img src="/assets/fondo.png" alt="App Mobile">
+              </div>
+              <h3>📱 App Mobile</h3>
+              <p>Aplicación móvil cross-platform con funcionalidades avanzadas y integración con APIs externas.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">API REST</span>
+              </div>
+            </div>
+      
+            <div class="project-card">
+              <div class="project-img">
+                <img src="/assets/fondo.png" alt="Sistema Inteligente">
+              </div>
+              <h3>🤖 Sistema Inteligente</h3>
+              <p>Sistema de inteligencia artificial para análisis de datos y predicciones automatizadas.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Data Analysis</span>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
 
-  <section class="section" id="habilidades">
-    <h2>Habilidades</h2>
-    <div class="skills-grid">
-      <div class="skill">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
-        <p>HTML</p>
-      </div>
-      <div class="skill">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
-        <p>CSS</p>
-      </div>
-      <div class="skill">
-        <img src="./storage/unnamed.png" alt="GitHub">
-        <p>GitHub</p>
-      </div>
-      </div>
-    </div>
-  </section>
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="section">
+        <div class="skills-container">
+            <h2 class="section-title">Mis Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React & Vue.js</li>
+                        <li>Responsive Design</li>
+                        <li>SASS/SCSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <ul class="skill-list">
+                        <li>Node.js & Express</li>
+                        <li>Python & Django</li>
+                        <li>Bases de Datos SQL/NoSQL</li>
+                        <li>APIs RESTful</li>
+                        <li>Autenticación JWT</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Herramientas</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>Docker</li>
+                        <li>VS Code</li>
+                        <li>Webpack & Vite</li>
+                        <li>Testing (Jest, Cypress)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud & DevOps</h3>
+                    <ul class="skill-list">
+                        <li>AWS & Azure</li>
+                        <li>CI/CD Pipelines</li>
+                        <li>Linux Server</li>
+                        <li>Monitoring</li>
+                        <li>Deployment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="section" id="contacto">
-    <h2>Contacto</h2>
-    <p>
-      <a href="https://wa.me/573227778199" target="_blank" class="contact-link">📱 WhatsApp</a><br>
-      <a href="https://instagram.com/nicxh17" target="_blank" class="contact-link">📸 Instagram: @nicxh17</a><br>
-      <a href="https://github.com/nicolashiguera17" target="_blank" class="contact-link">💻 GitHub: nicolashiguera17</a>
-    </p>
-  </section>
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section">
+        <div class="contact-container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>¡Hablemos!</h3>
+                    <p>Estoy disponible para nuevos proyectos y oportunidades colaborativas. No dudes en contactarme.</p>
+                    
+                    <div class="contact-item">
+                        <span style="margin-right: 1rem;">📧</span>
+                        <span>tu.email@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span style="margin-right: 1rem;">📱</span>
+                        <span>+57 123 456 7890</span>
+                    </div>
+                    <div class="contact-item">
+                        <span style="margin-right: 1rem;">📍</span>
+                        <span>Cúcuta, Colombia</span>
+                    </div>
+                    <div class="contact-item">
+                        <span style="margin-right: 1rem;">💼</span>
+                        <span>LinkedIn Profile</span>
+                    </div>
+                </div>
+                
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <input type="text" placeholder="Tu nombre" required>
+                    <input type="email" placeholder="Tu email" required>
+                    <input type="text" placeholder="Asunto" required>
+                    <textarea rows="4" placeholder="Tu mensaje" required></textarea>
+                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Mostrar header después de cargar
+        setTimeout(() => {
+            document.getElementById("main-header").classList.add("visible");
+        }, 1000);
+
+        // Smooth scroll para navegación
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                document.querySelector(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Función para manejar el formulario
+        function handleSubmit(event) {
+            event.preventDefault();
+            alert('¡Gracias por tu mensaje! Te responderé pronto.');
+            event.target.reset();
+        }
+
+        // Animaciones al hacer scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observar elementos para animación
+        document.querySelectorAll('.project-card, .skill-category').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Efecto parallax suave
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.background-image');
+            if (parallax) {
+                const speed = scrolled * 0.5;
+                parallax.style.transform = `translateY(${speed}px)`;
+            }
+        });
+    </script>
 </body>
 </html>
